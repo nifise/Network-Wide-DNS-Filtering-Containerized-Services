@@ -94,16 +94,30 @@ This Docker Compose file runs AdGuard Home as a DNS server and web interface wit
 <pre>docker compose up -d</pre>
 This command downloads the adguard image from docker hub and starts the container in the background.
 
-<img>
+<img src="screenshots/Screenshot 2025-12-26 011245.png">
 
 </p>
 
-<p>
-  In the same directory, start AdGuard with;
+
+You may encounter an error that says “failed to bind host port 0.0.0.0:53/tcp: address already in use”. If you do, head here, to resolve the error.
+https://medium.com/@nifise/docker-setup-debugging-failed-to-bind-host-port-0-0-0-0-53-tcp-address-already-in-use-d0c1a5cd31db
+
+- You should be able to access adguard using;
+```
+http://your_host_ip:3000
+```
+<img src="screenshots/Screenshot 2026-01-07 135633.png">
+- Restart the container with this, if the site does not load.
 <pre>docker compose up -d</pre>
-This command downloads the adguard image from docker hub and starts the container in the background.
-</p>
 
+<h1>AdGuard Configuration</h1>
+<img src="screenshots/Screenshot 2025-12-26 150858.png">
+<img src="screenshots/Screenshot 2025-12-26 152540.png">
+
+When doing this in the future in my personal LAN, I will be using a raspberry Pi to host AdGuard.
+<h1>Refrences</h1>
+- https://medium.com/@codyrwaits/installing-adguard-home-in-my-home-lab-648393f6064f 
+- https://frasermclean.com/posts/secure-your-entire-home-network-with-adguard-home 
 
 
 
