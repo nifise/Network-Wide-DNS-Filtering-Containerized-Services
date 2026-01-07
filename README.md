@@ -93,9 +93,16 @@ This Docker Compose file runs AdGuard Home as a DNS server and web interface wit
   In the same directory, start AdGuard with;
 <pre>docker compose up -d</pre>
 This command downloads the adguard image from docker hub and starts the container in the background.
+
+<img>
+
 </p>
 
-
+<p>
+  In the same directory, start AdGuard with;
+<pre>docker compose up -d</pre>
+This command downloads the adguard image from docker hub and starts the container in the background.
+</p>
 
 
 
