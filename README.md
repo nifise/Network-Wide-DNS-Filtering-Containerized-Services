@@ -114,6 +114,7 @@ http://your_host_ip:3000
 <img src="screenshots/Screenshot 2025-12-26 150858.png">
 <img src="screenshots/Screenshot 2025-12-26 152540.png">
 
+
 When doing this in the future in my personal LAN, I will be using a raspberry Pi to host AdGuard.
 <h1>Refrences</h1>
 - https://medium.com/@codyrwaits/installing-adguard-home-in-my-home-lab-648393f6064f 
